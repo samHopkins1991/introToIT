@@ -1,26 +1,78 @@
 <html>
-    <head> 
-    <title>My Profile</title>
-    </head>
-    <style>
-    </style>
-    <body>
-<h1>Sam Hopkins</h1>
 
-<img src="Website images\samCar.jpg">
-<div>
-    <nav>
-        <ul>
-            <li><a href="">About Me</a></li>
-            <li><a href= "">Interest in IT</a>
-            <li><a href="">Ideal Job</a></li>
-            <li><a href="">Personal Profile</a></li>
-            <li><a href="">Projet Idea</a></li>
-    </nav>
-</div>
-<p>
+<head>
+    <title>Sam Hopkins</title>
+</head>
+<style>
+    body {
+        background-color: grey;
+    }
 
+    /*li {display: inline;}*/
+
+    #navBar a {
+
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+
+    #navBar {
+        float: left;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333333;
+
+    }
+
+    li a:hover {
+        background-color: #111111;
+    }
+
+    .title {
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .info {
+        font-weight: bold;
+    }
+
+    .content {
+        line-height: 1.8;
+    }
+</style>
+
+<body>
+    <h1 id="name">Sam Hopkins</h1>
+
+    <div>
+        <nav>
+            <ul>
+                <li id="navBar"><a href="index.html">Home</a></li>
+                <li id="navBar"><a href="idealJob.html">Interest in IT</a>
+                <li id="navBar"><a href="personalProfile.html">Personal Profile</a></li>
+                <li id="navBar"><a href="interestInIt.html">Ideal Job</a></li>
+                <li id="navBar"><a href="projectIdea.html">Project Idea</a></li>
+                <li id="navBar"><a href= "references.html">References</a></li>
+        </nav>
+    </div>
+
+    <h2 class="title">About Me</h2>
+
+    <p class="content">
+        <span class="info">Name:</span> Samuel Hopkins <br>
+        <span class="info">Student ID:</span> s3864355 <br>
+        <span class="info">Email:</span>s3864355@student.rmit.edu.au<br>
+        <span class="info">Age:</span>29 <br>
+        <span class="info">City:</span> Brisbane</span>
 </p>
 
-    </body>
+
+</body>
+
 </html>
