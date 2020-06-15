@@ -5,7 +5,7 @@
 </head>
 <style>
     body {
-        background-color: grey;
+        background-color:rgb(222, 222, 222);
         font-size: 18;
         line-height: 1.5;
     }
@@ -48,7 +48,8 @@
     }
 
     .content {
-        line-height: 1.8;
+        margin-left: 20px;
+        text-indent: 2em;
     }
 
     #name {text-align: center;}
@@ -96,13 +97,75 @@
         </nav>
     </div>
 
+
     <h2 class="title">Project Idea</h2>
 
-    <p class="content">
+    <img class = "images" src ="Website images\fakeNews.jpg" width = 600>
+
+    <h3 class ="subHeading">Deep Fake Verification Engine</h3>
+
+
+
+
+    <p class="content">This project will aim to verify whether or not a video or audio source is computer generated.
+         It will utilise an extension within social media applications which will scan a video or audio source as a user watches or listens. 
+         If it detects that the video is a deep fake, it will show a red cross on the bottom of the player, 
+         informing the user, or a green tick if the video or audio appears genuine. </p>
+
+    <p class = "content">With the increasing realism deep fakes are generating, it is now nearly impossible to determine whether or not a video we 
+        watch, or audio we listen to, from the internet - or potentially news outlets- is real or fake. In the 2016 US Presidential elections, 
+        Trump spent 40% of his advertising budget on online ads, compared to Sanders’ 25% and Clinton’s 6%. In the UK in 2017, of all the political ad spending, 
+        43% was dedicated to online ads. A staggering increase from the 2% spent in 2014 (Kozlowska, 2020). Clearly politicians are using the internet to 
+        spread information about their campaign, but it also leaves the door open for others to sow disinformation. This is evidenced by political
+        infographics showing false stats, quotes and everything else, that circulates the social media platforms as truth. Deep fakes have the potential to be used 
+        in the same way, however leave out the option of rebuttal, after all if you see a video of someone saying something, it is a lot harder to prove that it, 
+        in fact, never happened. </p>    
+        
+        
+        <img class = "images" src ="Website images\zuckDeepFake.jpg" width = 600>
+
+    <p class = "content">For the remainder of this report, I will refer to video only, however, the same principles can be implemented to audio players. 
+        While watching a video, the Deep Fake Verification Engine will scan the data of the video. It will then determine 1 of three possible outcomes. 
+        While this is happening, there will be 1 minor graphic that is visible to the user, however it will disappear in the same way the Play/Pause 
+        controls disappear from video players.  This will include a loading wheel, which would be seen in the top left corner of the player , away from 
+        the Play/Pause functions to avoid confusion.  It will also be colourised but opaque, as the majority of video players have a grey loading wheel. 
+        When the scan is complete it will have 3 outcomes which will all take the place of the loading wheel. The first outcome is a green tick. This will 
+        symbolise that the video is genuine and can be trusted and verified. The Green Genuine Tick icon will aim to look like the verification ticks of 
+        social media platforms, however will not be blue, as it may mislead people to think that the subject of the video is the one posting, or the one 
+        creating the video. The shape of the icon will be familiar to most users and should not confuse users as to the meaning of it. The second outcome 
+        will be a Red X icon. The Red X will be the most familiar to users as it is used almost universally to indicate something is not right. This icon 
+        will appear if once the video is scanned, and the Deep Fake Verification Engine recognises that the video is not genuine and is computer generated. 
+        The engine needs to be certain that the video is computer generated in order for the Red X icon to appear. The third icon that could be generated 
+        is that of a yellow question mark. This icon appears when after the Engine runs a scan, it is unknown if the source of the video is genuine or not, 
+        and will be called the Second Opinion Question Mark. Along with the icons, there will be a text displayed. For the Green Genuine Tick, the text 
+        “Verified Genuine” will appear. For the Red X, “Imitation - not real” and for the Second Opinion Question Mark, the text “Not verified, second 
+        opinion needed” will show. The ways that the user will access this technology will eventually be determined by the device which they’re viewing the 
+        content on. For smartphones and tablets, it will be accessed through an extension on each of the major social media platforms; Facebook, Twitter, and 
+        Youtube. If on a computer, it will be available through a google chrome extension, however, will be redundant if also using the social media apps. 
+        After this verification happens, the data will be stored on a server, so the engine can quickly scan to see if the video has already been verified. 
+        However, at this stage, a google chrome extension will be the first to be created.
+        </p>
+
+
+    
+    <p class = "content">LIRE - an open source image retrieval system running on JAVA would be implemented to determine if the images contained within the program 
+        have appeared before on the internet. If a certain number of partial images are contained in the program, then that would suggest that the video would be 
+        computer generated. The number would be fine tuned in testing. The Video overlay would be run on JavaScript/HTML. The Deep Fake Verification Engine will be 
+        complicated to pull off effectively, so extensive tests, and fine tuning will be required. This may include changing programming languages to find the best 
+        combination that will output the results correctly and efficiently. 
+    </p>
+    
+    <p class = "content">If this project were to become successful, the result will be the limiting of false information throughout the internet. News outlets and 
+        television networks would likely use the program to fact check stories before they are run, while non-partisan commentators and organisations can use the 
+        engine to prove credibility and build trust. Finally, the at-home user will be able to determine if something that they are watching is genuine. In the event that deep 
+        fakes do not present an authenticity problem, the project can change direction and become an original content identifier. Credit for original work can be 
+        given to the proper person/s, and copyright material can be identified and taken down from websites. 
+    </p>
+
        
 
 
-</p>
+
 
 
 </body>
